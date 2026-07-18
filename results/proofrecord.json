@@ -1,0 +1,33 @@
+{
+  "schema_version": "bellwether-proofrecord-1.0",
+  "bell_nonce": "1f692e4d0b69bfd7da79f16ea77c0f30645292f9fdd9fbe114a2adcbab1a3f65",
+  "entropy_witness": {
+    "statistic": "CHSH",
+    "S": 2.514,
+    "E_values": [
+      0.598,
+      -0.612,
+      0.626,
+      0.678
+    ],
+    "classical_bound": 2.0,
+    "tsirelson_bound": 2.8284271247461903,
+    "violation": true,
+    "significant_violation_3sigma": true,
+    "sigma_S_shot_noise": 0.06324555320336758,
+    "n_shots_per_setting": 1000,
+    "illustrative_min_entropy_bits": 0.2792520111685227,
+    "loopholes_open": true,
+    "certification_class": "device-dependent witness (NOT loophole-free / NOT DI)",
+    "honesty_note": "Co-located qubits leave the locality loophole open and readout leaves the detection loophole open. The min-entropy figure is illustrative under trust assumptions, not a device-independent certified-randomness guarantee."
+  },
+  "raw_counts_hash": "2274206368152fc063ffc35ee64ce02c1f70ddaa832d438bedf8755908e3140f",
+  "calibration_hash": "ffda89721653a173441e61bf2fd6fc8ff21e133f579802e1601aeb69bbb9f2f4",
+  "witness_hash": "d14ea74651dd7e82fc9447093a79064d961274503e4565122d919cfcec40c2ab",
+  "job_id": "d9dje2cjeosc73fhm230",
+  "backend": "ibm_fez",
+  "provider_instance": "open-instance",
+  "context_id": "bellwether-1-primary",
+  "timestamp_utc": "2026-07-18T12:22:50Z",
+  "record_hash": "16ae4850b8b91f2f79184a1e5d9af503f4652a2b9bd9a1c29c338f3e3a1f97ae"
+}

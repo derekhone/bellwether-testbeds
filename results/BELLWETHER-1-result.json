@@ -1,0 +1,29 @@
+{
+  "S": 2.514,
+  "E_values": [
+    0.598,
+    -0.612,
+    0.626,
+    0.678
+  ],
+  "witness": {
+    "statistic": "CHSH",
+    "S": 2.514,
+    "E_values": [
+      0.598,
+      -0.612,
+      0.626,
+      0.678
+    ],
+    "classical_bound": 2.0,
+    "tsirelson_bound": 2.8284271247461903,
+    "violation": true,
+    "significant_violation_3sigma": true,
+    "sigma_S_shot_noise": 0.06324555320336758,
+    "n_shots_per_setting": 1000,
+    "illustrative_min_entropy_bits": 0.2792520111685227,
+    "loopholes_open": true,
+    "certification_class": "device-dependent witness (NOT loophole-free / NOT DI)",
+    "honesty_note": "Co-located qubits leave the locality loophole open and readout leaves the detection loophole open. The min-entropy figure is illustrative under trust assumptions, not a device-independent certified-randomness guarantee."
+  }
+}
