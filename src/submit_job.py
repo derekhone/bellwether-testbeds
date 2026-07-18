@@ -102,8 +102,14 @@ def main():
         print(f"[BELLWETHER-1] job_id = {job.job_id()}")
         result = job.result()
         for idx in range(len(isa)):
-            creg = list(result[idx].data.__dict__.keys())[0]
-            counts = getattr(result[idx].data, creg).get_counts()
+            # Validated extraction (see PRE-EXECUTION HARNESS FIX in prereg):
+            # SamplerV2 DataBin exposes the classical register by name via keys().
+            data = result[idx].data
+            keys = list(data.keys()) if hasattr(data, "keys") \
+                else [k for k in dir(data) if not k.startswith("_")]
+            creg = keys[0]
+            counts = data[creg].get_counts() if hasattr(data, "__getitem__") \
+                else getattr(data, creg).get_counts()
             counts_by_setting.append(counts)
             print(f"  setting {idx}: {counts}")
 

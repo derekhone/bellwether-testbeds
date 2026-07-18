@@ -81,6 +81,14 @@ Zenodo / LinkedIn / RF-100 is gated on Derek's determination:
 4. **File first, publish after** if new matter. Working example labeled as of the
    execution date; never implied to predate any filing.
 
+## 6a. Pre-execution harness fix (disclosed, WITNESS precedent)
+
+Before any QPU submission, the SamplerV2 counts-extraction in `submit_job.py` was
+hardened to read the classical register via `DataBin.keys()` / `data[creg]`
+(validated on a local StatevectorSampler run yielding S ~ 2.83). This is a
+pre-execution harness fix disclosed here and re-locked in MANIFEST.sha256 before
+the hardware run. No outcome criteria were changed.
+
 ## 7. Protocol
 
 LOCK (this MANIFEST) → mock tests PASS → execute one QPU job → compute S →
