@@ -1,0 +1,115 @@
+{
+  "schema_version": "bellwether-proofrecord-3.0",
+  "context_nonce": "8b2af52aac865d2baa0b2f0c3721c70f6ef72da23daf3196c663d87843423359",
+  "contextuality_witness": {
+    "witness_type": "peres_mermin_state_independent_contextuality",
+    "noncontextual_bound": 4.0,
+    "quantum_value": 6.0,
+    "shots_per_context": 1000,
+    "states_tested": [
+      "00",
+      "++",
+      "bell"
+    ],
+    "per_state": [
+      {
+        "state": "00",
+        "chi": 5.376,
+        "E_values": [
+          0.894,
+          0.936,
+          0.922,
+          0.878,
+          0.882,
+          -0.864
+        ],
+        "context_names": [
+          "R1",
+          "R2",
+          "R3",
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "sigma_chi": 0.03434064647032726,
+        "excess_over_bound": 1.3760000000000003,
+        "n_sigma": 40.069135017273524,
+        "violation": true,
+        "significant_violation_3sigma": true
+      },
+      {
+        "state": "++",
+        "chi": 5.324,
+        "E_values": [
+          0.92,
+          0.882,
+          0.87,
+          0.888,
+          0.886,
+          -0.878
+        ],
+        "context_names": [
+          "R1",
+          "R2",
+          "R3",
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "sigma_chi": 0.03569806717456842,
+        "excess_over_bound": 1.3239999999999998,
+        "n_sigma": 37.08884275233892,
+        "violation": true,
+        "significant_violation_3sigma": true
+      },
+      {
+        "state": "bell",
+        "chi": 5.268,
+        "E_values": [
+          0.894,
+          0.87,
+          0.842,
+          0.894,
+          0.898,
+          -0.87
+        ],
+        "context_names": [
+          "R1",
+          "R2",
+          "R3",
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "sigma_chi": 0.037045377579395786,
+        "excess_over_bound": 1.2679999999999998,
+        "n_sigma": 34.22829197198538,
+        "violation": true,
+        "significant_violation_3sigma": true
+      }
+    ],
+    "min_chi": 5.268,
+    "max_chi": 5.376,
+    "violation_all_states": true,
+    "significant_all_states_3sigma": true,
+    "state_independence_demonstrated": true,
+    "loopholes_open": {
+      "compatibility_non_disturbance": true,
+      "detection_fair_sampling": true,
+      "single_device": true
+    },
+    "device_independent": false,
+    "certified_randomness": false,
+    "state_independence_proven_for_all_states": false,
+    "claim": "Observed Peres-Mermin state-independent contextuality violation (chi > 4) on quantum hardware across multiple input states, under compatibility (non-disturbance) + detection trust assumptions. NOT loophole-free; NOT device-independent certified randomness."
+  },
+  "raw_counts_hash": "353a0596d1a6ee43ebe754ade46cc8908a6e76499c612b62a9aa5b09a65858eb",
+  "calibration_hash": "6896d4e42ed67feb3be399ac9a771ff1209611566576f1f56bd03f08c0d05f63",
+  "witness_hash": "53a6147f5b5f1a385525d47041303a98a405718ffafe89fc718060021b9ae13d",
+  "job_id": "d9do1s1htsac739dahpg",
+  "backend": "ibm_fez",
+  "provider_instance": "open-instance",
+  "context_id": "bellwether-3-primary",
+  "timestamp_utc": "2026-07-18T14:36:49Z",
+  "record_hash": "fceba1e3dcf787646f5ebc07a22ab8bbc38bafb09a9490eca0c352382a0045f7"
+}

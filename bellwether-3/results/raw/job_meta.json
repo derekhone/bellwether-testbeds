@@ -1,0 +1,11 @@
+{
+  "job_id": "d9do1s1htsac739dahpg",
+  "backend": "ibm_fez",
+  "shots_per_context": 1000,
+  "states": [
+    "00",
+    "++",
+    "bell"
+  ],
+  "timestamp_utc": "2026-07-18T14:36:49Z"
+}

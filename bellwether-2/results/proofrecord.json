@@ -1,0 +1,45 @@
+{
+  "schema_version": "bellwether-proofrecord-2.0",
+  "mermin_nonce": "20f8a53a7dac75875ece12131a2dbc7c431ed5a1f48cc1e01d34b996c10832ac",
+  "multipartite_witness": {
+    "witness_type": "mermin_3qubit_multipartite",
+    "M": -3.423,
+    "E_values": [
+      -0.888,
+      -0.824,
+      -0.831,
+      0.88
+    ],
+    "settings": [
+      "XYY",
+      "YXY",
+      "YYX",
+      "XXX"
+    ],
+    "classical_bound": 2.0,
+    "quantum_max": 4.0,
+    "shots_per_setting": 2000,
+    "sigma_M": 0.023103235704117292,
+    "excess_over_bound": 1.423,
+    "n_sigma": 61.593104023364276,
+    "violation": true,
+    "significant_violation_3sigma": true,
+    "loopholes_open": {
+      "locality": true,
+      "detection": true,
+      "co_located_qubits": true
+    },
+    "device_independent": false,
+    "certified_randomness": false,
+    "claim": "Observed 3-qubit Mermin inequality violation (genuine multipartite entanglement) on quantum hardware, under locality + detection trust assumptions. NOT loophole-free; NOT device-independent certified randomness."
+  },
+  "raw_counts_hash": "c04a40d63c3e2258f6977e3da3703f72d52fb96a166bf20fa8a6599438f97490",
+  "calibration_hash": "6896d4e42ed67feb3be399ac9a771ff1209611566576f1f56bd03f08c0d05f63",
+  "witness_hash": "e4b8b3021874616e32f6e5deb4564886fb6c5879123cfa6ecc8a003ae1391c0b",
+  "job_id": "d9dno91htsac739da4d0",
+  "backend": "ibm_fez",
+  "provider_instance": "open-instance",
+  "context_id": "bellwether-2-primary",
+  "timestamp_utc": "2026-07-18T14:36:39Z",
+  "record_hash": "b69903f1e48342fb68ff2f832c1be53e3e1d4a2a8859aa1c4db66e025fa0fbcd"
+}

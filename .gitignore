@@ -2,3 +2,8 @@ __pycache__/
 *.pyc
 *.egg-info/
 .env
+
+# nested prereg git-history backups (kept locally, not part of series repo)
+bellwether-2/_git_history_prereg_backup/
+bellwether-3/_git_history_prereg_backup/
+.logs/

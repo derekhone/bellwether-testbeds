@@ -1,0 +1,41 @@
+{
+  "M": -3.423,
+  "E_values": [
+    -0.888,
+    -0.824,
+    -0.831,
+    0.88
+  ],
+  "witness": {
+    "witness_type": "mermin_3qubit_multipartite",
+    "M": -3.423,
+    "E_values": [
+      -0.888,
+      -0.824,
+      -0.831,
+      0.88
+    ],
+    "settings": [
+      "XYY",
+      "YXY",
+      "YYX",
+      "XXX"
+    ],
+    "classical_bound": 2.0,
+    "quantum_max": 4.0,
+    "shots_per_setting": 2000,
+    "sigma_M": 0.023103235704117292,
+    "excess_over_bound": 1.423,
+    "n_sigma": 61.593104023364276,
+    "violation": true,
+    "significant_violation_3sigma": true,
+    "loopholes_open": {
+      "locality": true,
+      "detection": true,
+      "co_located_qubits": true
+    },
+    "device_independent": false,
+    "certified_randomness": false,
+    "claim": "Observed 3-qubit Mermin inequality violation (genuine multipartite entanglement) on quantum hardware, under locality + detection trust assumptions. NOT loophole-free; NOT device-independent certified randomness."
+  }
+}

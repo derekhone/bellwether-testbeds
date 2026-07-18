@@ -30,7 +30,10 @@ RAW = os.path.join(RESULTS, "raw")
 
 def _load_token() -> str:
     d = json.load(open("/home/ubuntu/.config/abacusai_auth_secrets.json"))
-    return d["witness1_ibmq"]["secrets"]["api_token"]["value"]
+    # Priority for witness1_ibmq, falling back to "ibm quantum" if missing
+    if "witness1_ibmq" in d:
+        return d["witness1_ibmq"]["secrets"]["api_token"]["value"]
+    return d["ibm quantum"]["secrets"]["api_token"]["value"]
 
 
 def _extract_counts(pub_result):
