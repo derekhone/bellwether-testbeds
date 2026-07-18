@@ -43,4 +43,10 @@ State applies to the tested circuit model, backend, qubits, calibration snapshot
 - **record_hash:** fceba1e3dcf787646f5ebc07a22ab8bbc38bafb09a9490eca0c352382a0045f7
 - **job_id:** d9do1s1htsac739dahpg · **backend:** ibm_fez · **context_id:** bellwether-3-primary
 
+## Defensive Publication (Zenodo)
+- **DOI (version):** 10.5281/zenodo.21430451
+- **Record:** https://zenodo.org/records/21430451
+- **License:** CC BY 4.0
+- Published 2026-07-18 as defensive publication (establishes public prior art; core RF classical governance/crypto IP already protected by filed provisionals/nonprovisional).
+
 To God be the glory. Proof Before Power. Verification Before Execution.

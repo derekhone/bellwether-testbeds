@@ -17,6 +17,18 @@ genuine multipartite entanglement, to state-independent contextuality.
 | **BELLWETHER-2** (`bellwether-2/`) | Mermin-3 (3-qubit GHZ) | Genuine multipartite entanglement | classical ≤2, quantum 4 | **\|M\| = 3.423** | ibm_fez / d9dno91htsac739da4d0 | ✅ PASS |
 | **BELLWETHER-3** (`bellwether-3/`) | Peres–Mermin magic square | State-independent contextuality | noncontextual ≤4, quantum 6 | **χ = 5.27–5.38** (3 states) | ibm_fez / d9do1s1htsac739dahpg | ✅ PASS |
 
+### Defensive-publication DOIs (Zenodo, published 2026-07-18)
+| Experiment | DOI (version) | Concept DOI | Record |
+|------------|---------------|-------------|--------|
+| BELLWETHER-1 | 10.5281/zenodo.21430442 | 10.5281/zenodo.21430441 | https://zenodo.org/records/21430442 |
+| BELLWETHER-2 | 10.5281/zenodo.21430446 | 10.5281/zenodo.21430445 | https://zenodo.org/records/21430446 |
+| BELLWETHER-3 | 10.5281/zenodo.21430451 | 10.5281/zenodo.21430450 | https://zenodo.org/records/21430451 |
+| CHRONO-1 | 10.5281/zenodo.21430455 | 10.5281/zenodo.21430454 | https://zenodo.org/records/21430455 |
+
+These are **defensive publications**: they establish public, timestamped prior art (protecting freedom
+to operate) while the core RF classical governance/cryptographic/authorization IP is already protected
+by filed USPTO provisionals and the nonprovisional parent. See each experiment's report for details.
+
 A companion series, **CHRONO** (Leggett–Garg temporal witness, K3 = 1.450), lives in the separate
 `chrono-testbeds` repository. Together these span all three canonical nonclassicality families —
 **nonlocality** (BELLWETHER-1/2), **temporal** (CHRONO-1), and **contextuality** (BELLWETHER-3).

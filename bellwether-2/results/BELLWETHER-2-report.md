@@ -34,4 +34,10 @@ This is a **device-dependent** multipartite-entanglement witness. Locality and d
 - **record_hash:** b69903f1e48342fb68ff2f832c1be53e3e1d4a2a8859aa1c4db66e025fa0fbcd
 - **job_id:** d9dno91htsac739da4d0 · **backend:** ibm_fez · **context_id:** bellwether-2-primary
 
+## Defensive Publication (Zenodo)
+- **DOI (version):** 10.5281/zenodo.21430446
+- **Record:** https://zenodo.org/records/21430446
+- **License:** CC BY 4.0
+- Published 2026-07-18 as defensive publication (establishes public prior art; core RF classical governance/crypto IP already protected by filed provisionals/nonprovisional).
+
 To God be the glory. Proof Before Power. Verification Before Execution.

@@ -14,4 +14,10 @@ This is a device-dependent Bell-violation witness. Locality and detection loopho
 - **bell_nonce:** 1f692e4d0b69bfd7da79f16ea77c0f30645292f9fdd9fbe114a2adcbab1a3f65
 - **record_hash:** 16ae4850b8b91f2f79184a1e5d9af503f4652a2b9bd9a1c29c338f3e3a1f97ae
 
+## Defensive Publication (Zenodo)
+- **DOI (version):** 10.5281/zenodo.21430442
+- **Record:** https://zenodo.org/records/21430442
+- **License:** CC BY 4.0
+- Published 2026-07-18 as defensive publication (establishes public prior art; core RF classical governance/crypto IP already protected by filed provisionals/nonprovisional).
+
 To God be the glory. Proof Before Power. Verification Before Execution.
