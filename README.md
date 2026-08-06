@@ -1,3 +1,9 @@
+> **Repository Role:** Preregistered Experiment Series — Bell-Violation Entropy Witness (BELLWETHER) · Part of the [Remnant Fieldworks](https://remnantfieldworks.com) research and product ecosystem
+
+**Where this fits:** This repository is part of the Remnant Fieldworks quantum witness research program — a high-adversity test environment for provenance and execution integrity that informs the [ExecutionProof](https://executionproof.io) governance architecture. The quantum series tests whether nonclassical entropy sources, Bell-inequality violations, and tamper-evident records can serve as authorization evidence components in ProofRecords. BELLWETHER binds an independently-verifiable CHSH Bell-violation entropy witness into an authorization ProofRecord.
+
+---
+
 # BELLWETHER Testbeds — Quantum Nonclassicality Witnesses Bound into Authorization Records
 
 **Remnant Fieldworks Inc. — ExecutionProof Research Program**
