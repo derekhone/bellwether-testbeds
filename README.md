@@ -53,7 +53,7 @@ in BELLWETHER-3 is **demonstrated across the states run**, not proven for all st
   the `record_hash` and nonce from the raw counts.
 
 ## License
-CC BY 4.0.
+CC BY 4.0 — see [LICENSE](LICENSE) for the full terms already identified here. Existing file-specific and third-party notices remain applicable; this addition does not narrow previous grants or imply a production-backend license.
 
 ---
 To God be the glory. **Proof Before Power. Verification Before Execution.**
